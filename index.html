@@ -1,44 +1,110 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ملفات التحميل</title>
-<style>
-body{margin:0;background:#111;color:#fff;font-family:Arial;text-align:center}
-h2{margin:25px 0 15px}
-.box{background:#222;margin:10px auto;padding:15px;border-radius:7px;width:80%;max-width:360px}
-a{display:block;background:#1683f5;color:#fff;text-decoration:none;padding:10px;border-radius:5px;margin-top:10px}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ملفات التحميل</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #111;
+      color: #fff;
+      font-family: Arial, Tahoma, sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 22px 18px 40px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 28px;
+      margin: 10px 0 24px;
+    }
+
+    .card {
+      background: #222;
+      border-radius: 13px;
+      padding: 20px 16px 22px;
+      margin-bottom: 18px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,.25);
+    }
+
+    .card h2 {
+      margin: 0 0 18px;
+      font-size: 25px;
+      word-break: break-word;
+    }
+
+    .download {
+      display: block;
+      width: 100%;
+      padding: 17px 12px;
+      background: #1687f2;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 9px;
+      font-size: 23px;
+      transition: .15s;
+    }
+
+    .download:active {
+      transform: scale(.98);
+    }
+
+    .section-title {
+      font-size: 27px;
+      text-align: center;
+      margin: 28px 0 18px;
+    }
+  </style>
 </head>
+
 <body>
-<h2>📁 ملفات التحميل</h2>
+  <main class="container">
 
-<div class="box"><b>userbouquet.favourites.tv</b>
-<a href="userbouquet.favourites.tv" download>تحميل الملف</a></div>
+    <h1>📁 ملفات التحميل</h1>
 
-<div class="box"><b>tv_channels_Ugeen_VIPFmS0dT_plus.m3u</b>
-<a href="tv_channels_Ugeen_VIPFmS0dT_plus.m3u" download>تحميل M3U</a></div>
+    <div class="card">
+      <h2>GOOGLE_VIDEO.pkg</h2>
+      <a class="download" href="GOOGLE_VIDEO.pkg" download>تحميل PKG</a>
+    </div>
 
-<div class="box"><b>GOOGLE_VIDEO.pkg</b>
-<a href="GOOGLE_VIDEO.pkg" download>تحميل PKG</a></div>
+    <div class="card">
+      <h2>beinsport.m3u</h2>
+      <a class="download" href="beinsport.m3u" download>تحميل M3U</a>
+    </div>
 
-<div class="box"><b>beinsport.m3u</b>
-<a href="beinsport.m3u" download>تحميل M3U</a></div>
+    <div class="card">
+      <h2>tv_channels_Ugeen_VIPFmS0dT.m3u</h2>
+      <a class="download" href="tv_channels_Ugeen_VIPFmS0dT.m3u" download>تحميل M3U</a>
+    </div>
 
-<div class="box"><b>tv_channels_Ugeen_VIPFmS0dT.m3u</b>
-<a href="tv_channels_Ugeen_VIPFmS0dT.m3u" download>تحميل M3U</a></div>
+    <div class="card">
+      <h2>tv_channels_Ugeen_pAGaok.m3u</h2>
+      <a class="download" href="tv_channels_Ugeen_pAGaok.m3u" download>تحميل M3U</a>
+    </div>
 
-<div class="box"><b>tv_channels_Ugeen_pAGaok.m3u</b>
-<a href="tv_channels_Ugeen_pAGaok.m3u" download>تحميل M3U</a></div>
+    <div class="card">
+      <h2>FIX#FIREAIMBOT_FRUIT_NINJA_V2_#Enc.lua</h2>
+      <a class="download" href="FIX%23FIREAIMBOT_FRUIT_NINJA_V2_%23Enc.lua" download>تحميل Lua</a>
+    </div>
 
-<div class="box"><b>ᖴI᙭#ғɪʀᴇᴀɪᴍʙᴏᴛ_ғʀᴜɪᴛ_ɴɪɴᴊᴀ_ᴠ2_#Enc.lua</b>
-<a href="ᖴI᙭%23ғɪʀᴇᴀɪᴍʙᴏᴛ_ғʀᴜɪᴛ_ɴɪɴᴊᴀ_ᴠ2_%23Enc.lua" download>تحميل Lua</a></div>
+    <!-- الخانة الجديدة -->
+    <h2 class="section-title">📺 قنوات</h2>
 
-<h2>📺 قنوات</h2>
+    <div class="card">
+      <h2>tv_channels_Ugeen_VIPFmS0dT (2).m3u</h2>
+      <a class="download" href="tv_channels_Ugeen_VIPFmS0dT%20%282%29.m3u" download>
+        📺 تحميل ملف القنوات
+      </a>
+    </div>
 
-<div class="box"><b>tv_channels_Ugeen_VIPFmS0dT (1).m3u</b>
-<a href="tv_channels_Ugeen_VIPFmS0dT%20(1).m3u" download>📺 تحميل ملف القنوات</a></div>
-
+  </main>
 </body>
 </html>
